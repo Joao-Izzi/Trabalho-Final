@@ -21,8 +21,9 @@ A solução entregue deve conter código completo, organizado e documentado, fac
 
 No entregável eu entrego apenas o melhor modelo, a análise descritiva e tunning de hiperparâmetros usado para chegar nele e por fim como é dada a predição de novos clientes e a interpretração feita.
 
-# **Esse comentário é extremamente importante**
+# **Comentários finais e relevantes sobre meu raciocínio**
 - Eu só acredito que esses resultados extremamente absurdos e bons que obtive no KNN estão certos, por que eu sei que os dados foram gerados sinteticamente pelo meu professor e que existia uma resposta correta.
 - Tenho total consciência de que não é pra existir um modelo bom daquele, to confiando que eu cheguei na resposta que era pra chegar kkkkk
 - A variável 31 é um vazamento direto das informações dos dados, por isso deve ser excluída.
 - Cada uma das três features utilizadas como covariáveis sozinhas não são um vazamento direto da resposta, e por isso, acredito que o resultado final que cheguei é valido.
+- Além disso eu fiz um teste rápido retirando as feat 8, 17, 31 e 50 e rodei um RF  e um boost e o resultado deles foram um modelo aleatório, então isso me leva a acreditar mais ainda que utilizar a combinação das feat 8, 17 e 50 é o que leva o modelo a acertar
