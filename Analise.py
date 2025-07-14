@@ -220,9 +220,11 @@ p_hat = pipeline.predict_proba(x_calib)[:, 1]
 print(classification_report(y_calib, y_hat))
 print("ROC-AUC (calibração):", roc_auc_score(y_calib, p_hat))
 # %%
-x_train = x_train.drop("feat_31", axis=1)
-x_calib = x_calib.drop("feat_31", axis=1)
-x_test = x_test.drop("feat_31", axis=1)
+# feat_drop = "feat_31"
+feat_drop = ["feat_8", "feat_17", "feat_31", "feat_50"]
+x_train = x_train.drop(feat_drop, axis=1)
+x_calib = x_calib.drop(feat_drop, axis=1)
+x_test = x_test.drop(feat_drop, axis=1)
 # 1) Random Forest
 rf = RandomForestClassifier(n_estimators=200, class_weight="balanced", random_state=42)
 rf.fit(x_train, y_train)
