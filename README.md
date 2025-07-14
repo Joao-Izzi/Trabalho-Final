@@ -16,4 +16,11 @@ Sua tarefa é desenvolver uma solução automatizada que atenda a esses objetivo
 
 A solução entregue deve conter código completo, organizado e documentado, facilitando sua integração ao fluxo operacional do cliente.
 
+- **O código entregável é:** Entregavel_pipe_credit
+- O codigo chamado **Analise.py** foi um codigo usado para uma analise inicial e alguns testes
 
+No entregável eu entrego apenas o melhor modelo, a análise descritiva e tunning de hiperparâmetros usado para chegar nele e por fim como é dada a predição de novos clientes e a interpretração feita.
+
+# **Esse comentário é extremamente importante**
+- Eu só acredito que esses resultados extremamente absurdos e bons que obtive no KNN estão certos, por que eu sei que os dados foram gerados sinteticamente pelo meu professor e que existia uma resposta correta.
+- Tenho total consciência de que não é pra existir um modelo bom daquele, to confiando que eu cheguei na resposta que era pra chegar kkkkk. é isso
