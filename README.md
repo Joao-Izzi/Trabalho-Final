@@ -23,4 +23,6 @@ No entregável eu entrego apenas o melhor modelo, a análise descritiva e tunnin
 
 # **Esse comentário é extremamente importante**
 - Eu só acredito que esses resultados extremamente absurdos e bons que obtive no KNN estão certos, por que eu sei que os dados foram gerados sinteticamente pelo meu professor e que existia uma resposta correta.
-- Tenho total consciência de que não é pra existir um modelo bom daquele, to confiando que eu cheguei na resposta que era pra chegar kkkkk. é isso
+- Tenho total consciência de que não é pra existir um modelo bom daquele, to confiando que eu cheguei na resposta que era pra chegar kkkkk
+- A variável 31 é um vazamento direto das informações dos dados, por isso deve ser excluída.
+- Cada uma das três features utilizadas como covariáveis sozinhas não são um vazamento direto da resposta, e por isso, acredito que o resultado final que cheguei é valido.
